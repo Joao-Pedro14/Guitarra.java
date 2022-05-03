@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa </title>
+</head>
+<body>
+    <h1>Primeiro Projeto!!!</h1> 
+    <hr>
+    <p>pacote  com ;
+
+
+        //declaração da classe
+         classe  pública Guitarra {
+        
+            private  String  numeroSerie , fabricante , modelo , tipo , madeira ;
+             duplo  preco privado ;
+        
+            //Criação do construtor da classe Guitarra
+            público  Guitarra (
+                    String  numeroSerie , String  fabricante ,
+                    String  modelo ,		 String  tipo ,
+                    String  madeira ,		 double  preco ) {
+                isso . numeroSerie = numeroSerie ;
+                isso . fabricante = fabricante ;
+                isso . modelo = modelo ;
+                isso . tipo = tipo ;
+                isso . madeira = madeira ;
+                isso . preco = preco ;
+            }
+            public  String  getNumeroSerie () {
+                retornar  numeroSerie ;
+            }
+            public  void  setNumeroSerie ( String  numeroSerie ) {
+                isso . numeroSerie = numeroSerie ;
+            }
+            public  String  getFabricante () {
+                retornar  fabricante ;
+            }
+            public  void  setFabricante ( String  fabricante ) {
+                isso . fabricante = fabricante ;
+            }
+            public  String  getModelo () {
+                 modelo de retorno ;
+            }
+            public  String  getTipo () {
+                 tipo de retorno ;
+            }
+            public  void  setTipo ( String  tipo ) {
+                isso . tipo = tipo ;
+            }
+            public  String  getMadeira () {
+                retornar  madeira ;
+            }
+            public  void  setMadeira ( String  madeira ) {
+                isso . madeira = madeira ;
+            }
+            public  double  getPreco () {
+                retorno  preco ;
+            }
+            public  void  setPreco ( double  preco ) {
+                isso . preco = preco ;
+            }
+        
+            //O método main() é o método principal da classe
+            public  static  void  main ( String [] args ) {
+                //instanciamos um objeto chamado "minhaGuitarra" que será do tipo "Guitarra"
+                //Os valores passados ​​são pelo construtor da classe para criar o objeto usado
+                Guitarra  minhaGuitarra = new  Guitarra ( "01020304" , "Fender" , "Telecaster" , "Elétrica" , "Mogno" , 1500 );
+                //testando os dados da classe, imprimindo a saída simples no terminal
+                Sistema . fora . println ( "Número de Série: " + ( minhaGuitarra . getNumeroSerie ()));
+                Sistema . fora . println ( "Madeira: " + ( minha Guitarra . getMadeira ()));
+                Sistema . fora . println ( "Preço: " + ( minhaGuitarra . getPreco ()));
+                Sistema . fora . println ( "Tipo: " + ( minhaGuitarra . getTipo ()));
+                Sistema . fora . println ( "Fabricante: " + ( minhaGuitarra . getFabricante ()));
+                Sistema . fora . println ( "Modelo: " + ( minhaGuitarra . getModelo ()));
+            }
+        }</p>
+</body>
+</html>
